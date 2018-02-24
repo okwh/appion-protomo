@@ -997,7 +997,7 @@ Appion and thus Appion-Protomo are open source software packages released under 
 
 # Compatibility
 
-The workflow has been tested in Mac OSX El Capitan 10.11.3, Ubuntu, CentOS 7, and Windows 10.
+The workflow has been tested in Mac OSX El Capitan 10.11.3, Ubuntu 14.04.3 LTS, CentOS 7, and Windows 10.
 
 
 # Bugs
