@@ -915,9 +915,9 @@ Note that clicking on Align Tilt-Series forcefully clears all PHP variables. Sel
 
 <!--- - [TBD] /home/appionuser/.Xauthority permissions have been changed from root to appionuser (CentOS7 in particular had default permissions as root:root, which makes X11 in the VNC viewer fail). --->
 
-<!--- - [TBD] /emg/sw/ and /emg/data/ have been re-located to /sw/ and /data/. This was creating issues because since data/ is shared between the host and Docker container, this was also locking the sw/ directory, preventing the user from removing software if they wish.  --->
+<!--- - [TBD] /emg/sw/ has been re-located to /sw/. This was creating issues because since data/ is shared between the host and Docker container, this was also locking the sw/ directory, preventing the user from removing software if they wish.  --->
 
-<!--- - [TBD] Spider, Xmipp, Relion, and FindEM have been removed from the container.  --->
+<!--- - [TBD] Spider, Xmipp, Relion, CTFfind3&4, and FindEM have been removed from the container.  --->
 
 <!--- - [TBD]   --->
 
