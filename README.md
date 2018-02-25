@@ -913,8 +913,6 @@ Note that clicking on Align Tilt-Series forcefully clears all PHP variables. Sel
 
 <!--- - [TBD] Root password has been changed to `appion-protomo`. [Add `RUN echo "root:appion-protomo" | chpasswd` to the Dockerfile] --->
 
-<!--- - [TBD] /home/appionuser/.Xauthority permissions have been changed from root to appionuser (CentOS7 in particular had default permissions as root:root, which makes X11 in the VNC viewer fail). --->
-
 <!--- - [TBD] /emg/sw/ has been re-located to /sw/. This was creating issues because since data/ is shared between the host and Docker container, this was also locking the sw/ directory, preventing the user from removing software if they wish.  --->
 
 <!--- - [TBD] Spider, Xmipp, Relion, CTFfind3&4, and FindEM have been removed from the container.  --->
@@ -922,6 +920,8 @@ Note that clicking on Align Tilt-Series forcefully clears all PHP variables. Sel
 <!--- - [TBD]   --->
 
 <!--- - [TBD]   --->
+
+<!--- - [TBD] /home/appionuser/.Xauthority permissions have been changed from root to appionuser (CentOS7 in particular had default permissions as root:root, which makes X11 in the VNC viewer fail). --->
 
 <!--- - [TBD] Added 'Run' buttons alongside 'Just Show Command' button.  --->
 
