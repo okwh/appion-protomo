@@ -147,9 +147,9 @@ Make sure Docker is running:<br />
 
 - You should run Appion-Protomo commands from inside a VNC viewer and not as the root user. First, download and install a VNC viewer such as TigerVNC or RealVNC:
 
-<a href="https://bintray.com/tigervnc/stable/tigervnc/1.8.0" target="_blank">https://bintray.com/tigervnc/stable/tigervnc/1.8.0</a>
+https://bintray.com/tigervnc/stable/tigervnc/1.8.0
 
-<a href="https://www.realvnc.com/en/connect/download/viewer/macos/" target="_blank">https://www.realvnc.com/en/connect/download/viewer/macos/</a>
+https://www.realvnc.com/en/connect/download/viewer/macos/
 
 Use your IP and TCP port like ``192.168.99.100:5901`` as the VNC address with password `appion-protomo`.
 
@@ -211,9 +211,11 @@ Use your IP and TCP port like ``192.168.99.100:5901`` as the VNC address with pa
 
 <br />
 
-- To VNC into the container, download and install a VNC viewer such as TigerVNC vncviewer:
+- To VNC into the container, download and install a VNC viewer such as TigerVNC or RealVNC:
 
-<a href="https://bintray.com/tigervnc/stable/tigervnc/1.8.0" target="_blank">https://bintray.com/tigervnc/stable/tigervnc/1.8.0</a>
+https://bintray.com/tigervnc/stable/tigervnc/1.8.0
+
+https://www.realvnc.com/en/connect/download/viewer/macos/
 
 Use the IP and port found in the running Kitematic container's `Settings >> Hostname/Ports` next to `Docker port 5901` as the VNC address with password `appion-protomo`.
 
