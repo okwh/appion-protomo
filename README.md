@@ -141,13 +141,11 @@ Make sure Docker is running:<br />
 ## Linux/MacOS &nbsp;&nbsp; *(command line)*
 *<details><summary>Click to expand</summary><p>*
 
-- To launch the application container, do:
+- You should run Appion-Protomo commands from inside a VNC viewer and not as the root user. First, download and install a VNC viewer such as TigerVNC or RealVNC:
 
-```./run.sh```
+<a href="https://bintray.com/tigervnc/stable/tigervnc/1.8.0" target="_blank">https://bintray.com/tigervnc/stable/tigervnc/1.8.0</a>
 
-- To VNC into the container, download and install a VNC viewer like RealVNC:
-
-```https://www.realvnc.com/en/connect/download/viewer/macos/```
+<a href="https://www.realvnc.com/en/connect/download/viewer/macos/" target="_blank">https://www.realvnc.com/en/connect/download/viewer/macos/</a>
 
 Use your IP and TCP port like ``192.168.99.100:5901`` as the VNC address with password `appion-protomo`.
 
@@ -155,9 +153,13 @@ Use your IP and TCP port like ``192.168.99.100:5901`` as the VNC address with pa
 
 > Here are some more possible IP addresses/names: localhost, 0.0.0.0, 127.0.0.1, 192.168.0.1.
 
-- To ssh into the container, do:
+- To ssh into the container as root, do:
 
 ```./exec.sh```
+
+- To launch the application container, do:
+
+```./run.sh```
 
 - To kill the container (does not delete the container), do:
 
@@ -205,9 +207,9 @@ Use your IP and TCP port like ``192.168.99.100:5901`` as the VNC address with pa
 
 <br />
 
-- To VNC into the container, download and install a VNC viewer like TigerVNC vncviewer:
+- To VNC into the container, download and install a VNC viewer such as TigerVNC vncviewer:
 
-<a href="https://github.com/TigerVNC/tigervnc/releases" target="_blank">https://github.com/TigerVNC/tigervnc/releases</a>
+<a href="https://bintray.com/tigervnc/stable/tigervnc/1.8.0" target="_blank">https://bintray.com/tigervnc/stable/tigervnc/1.8.0</a>
 
 Use the IP and port found in the running Kitematic container's `Settings >> Hostname/Ports` next to `Docker port 5901` as the VNC address with password `appion-protomo`.
 
