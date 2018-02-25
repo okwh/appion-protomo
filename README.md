@@ -905,13 +905,13 @@ Note that clicking on Align Tilt-Series forcefully clears all PHP variables. Sel
 - `12-05-2017`
   - Initial commit.
 
-<!--- - [TBD] IMOD 4.10.11 Added. http://bio3d.colorado.edu/ftp/latestIMOD/RHEL7-64_CUDA8.0/ --->
+<!--- - [TBD] IMOD 4.10.11 Added. --->
 
-<!--- - [TBD] Tomo3D Added. http://goo.gl/QSS4nC --->
+<!--- - [TBD] Tomo3D Added. --->
 
-<!--- - [TBD] TomoCTF Added. https://www.dropbox.com/s/wu4zv4nrjef5wba/tomoctf_x86_64_July2013.zip?dl=0 --->
+<!--- - [TBD] TomoCTF Added. --->
 
-<!--- - [TBD] Root password has been changed to `appion-protomo`. [Add `RUN echo "root:appion-protomo" | chpasswd` to the Dockerfile] --->
+<!--- - [TBD] Root password has been changed to `appion-protomo`. --->
 
 <!--- - [TBD] /emg/sw/ has been re-located to /sw/. This was creating issues because since data/ is shared between the host and Docker container, this was also locking the sw/ directory, preventing the user from removing software if they wish.  --->
 
