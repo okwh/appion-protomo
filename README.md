@@ -687,9 +687,9 @@ However, **batch coarse alignment** is **very useful** for being able to quickly
 
 <details><summary>Restarting a refinement</summary><p>
 
-If you would like to refine a tilt-series that has already been refined, navigate to `Align Tilt-Series` on the left. Click on `Protomo 2.4.1`. Select the tilt-series number you wish to refine from the box. Change the Run name if you wish. Click on 'Just Show Command'. Click on 'View Coarse Alignment Results'. Click on the link to continue onto Refinement.
+If you would like to refine a tilt-series that has already been refined, navigate to `Align Tilt-Series` on the left. Click on `Protomo 2.4.1`. Select the tilt-series number you wish to refine from the box. Change the Run name if you wish. Click on `Just Show Command`, Click on `View Coarse Alignment Results`. Click on the link to continue onto Refinement.
 
-Choose 'Advanced' Settings Verbosity. Under 'General Parameters', input the run name of the tilt-series and the iteration you wish to restart from. If you manually aligned the previously-refined tilt-series (to fix grossly misaligned images, for instance), then change the Starting Alignment under 'Parameter Presets' to Manual AND under 'General Parameters' in the restart iteration box, type in 'Manual'. If you do not want to re-refine beginning with binned by 8 alignment iterations, then click the '<- Shift Rounds Left' link at the top of 'General Parameters'.
+Choose `Advanced` Settings Verbosity. Under `General Parameters`, input the run name of the tilt-series and the iteration you wish to restart from. If you manually aligned the previously-refined tilt-series (to fix grossly misaligned images, for instance), then change the Starting Alignment under `Parameter Presets` to Manual AND under `General Parameters` in the restart iteration box, type in 'Manual'. If you do not want to re-refine beginning with binned by 8 alignment iterations, then click the `<- Shift Rounds Left` link at the top of `General Parameters`.
 
 </p></details>
 
