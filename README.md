@@ -242,7 +242,9 @@ Use the IP and port found in the running Kitematic container's `Settings >> Host
 
 <br />
 
-# Example
+# Example 1
+**Start here!**
+*Single particle tilt-series ([EMPIAR-10129](https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10129/))*
 
 *Click to expand:*
 
@@ -291,7 +293,7 @@ Make sure your container is running via the ```./run.sh``` script.
 
 
 ```wget http://<TILTSERIESDOWNLOADLINKHERE>
-Download the following hemagglutinin SerialEM tilt-series (collected on an F20 with a DE-20; from EMPIAR-10129):
+Download the following hemagglutinin SerialEM tilt-series (collected on an F20 with a DE-20; from [EMPIAR-10129](https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10129/)):
 
 https://drive.google.com/open?id=1remm05G-R7w_6GLjW1R_jmV6Qzg0fcMx
 
@@ -907,6 +909,29 @@ Note that clicking on Align Tilt-Series forcefully clears all PHP variables. Sel
 <br />
 
 </p></details>
+
+# Example 2
+*...*
+
+*Click to expand:*
+
+<details><summary>Expected results after following this example tutorial</summary><p>
+
+- **Initial tilt-series before any alignment:**
+
+...
+
+- **Tilt-series (*left*) and reconstruction (*right*) after coarse alignment:**
+
+...
+
+- **Tilt-series (*left*) and reconstruction (*right*) after Appion-Protomo refinement:**
+
+...
+
+</p></details>
+
+<br />
 
 # ChangeLog
 
