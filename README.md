@@ -173,7 +173,7 @@ Use your IP and TCP port like ``192.168.99.100:5901`` as the VNC address with pa
 
 - To delete the mariadb-database volume, do:
 
-```./rmVolume.sh``` (Warning: The volume will be recreated the next time you do ./run.sh, but you will have an empty Appion database!)
+```./rmVolume.sh``` (Warning: This will delete the database! The volume will be recreated the next time you do ./run.sh, but you will have an empty Appion database!)
 
 - To re-build the appion-protomo image from scratch, do:
 
