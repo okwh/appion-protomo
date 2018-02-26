@@ -242,7 +242,7 @@ Use the IP and port found in the running Kitematic container's `Settings >> Host
 
 <br />
 
-# Example 1
+# Example #1
 **Start here!**<br>*Single particle tilt-series ([EMPIAR-10129](https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10129/))*
 
 *Click to expand:*
@@ -909,7 +909,7 @@ Note that clicking on Align Tilt-Series forcefully clears all PHP variables. Sel
 
 </p></details>
 
-# Example 2
+# Example #2
 *...*
 
 *Click to expand:*
